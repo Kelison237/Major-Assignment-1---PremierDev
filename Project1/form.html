@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form</title>
+    <style type="text/css">
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.icon img {
+    width: 100px;
+    height: auto;
+float: left;
+    padding-left: 10px;
+}
+
+
+
+.list a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 3pc;
+    border-radius: 4px;
+    margin-left: 44px;
+}
+.list a:hover {
+    background-color: white;
+    font-size: 15px;
+    transition: 1.2s;
+}
+
+.list {
+    text-align: right;
+   padding-top: 30px;
+   float: right;
+    
+}
+
+header{
+    padding-right: 5px;
+    height: 100px;
+    background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-attachment: fixed;
+}
+
+
+body {
+    /* background-image: url("https://images.freeimages.com/images/small-previews/123/waves-on-the-roof-1562704.jpg"); */
+ background-size: cover;
+ background-color: rgba(12, 117, 117, 0.4);
+}
+.info {
+    margin: 45px 0 0 96px;
+
+}
+.info h2{
+    color: blanchedalmond;
+    font-size: 26px;
+}
+.info p {
+    margin-bottom: 12px;
+}
+
+.box1 {
+    
+    background-color: rgba(45, 198, 236, 0.4);
+    margin-top: 34px;
+    width: 40%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+    padding-top: 22px;
+    float: right;
+}
+.box2 {
+    
+    padding: 3px 5px 3px 0;
+
+    width: 40%;
+    float: left;
+}
+
+@media (max-width: 800px) {
+    .list a{
+        padding: 5px;}
+        .box1 {
+            display: block;
+        width: 100%;
+        margin-right: -26%;
+           }
+        .box2 {
+            width: 100%;
+}
+}
+
+@media (max-width: 450px) {
+   
+    .list a {
+        margin-left: 12px;
+    }
+  form {padding: 4px}
+}
+
+form {
+    padding: 3px 0 3px 18%;
+   
+}
+input[type=email], textarea , input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=tel], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+   }
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+    }
+
+ form h2,p, h1 {
+     color: whitesmoke;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bolder;
+ }
+
+ label {
+     color: white;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 12px 12px 12px 0px;
+     display: inline-block;
+ }
+
+ input[type=submit]{
+     background-color: #5FC3E4;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     float: right;
+ }
+
+ input[type=submit]:hover {
+     background-color: grey;
+     transition: 1.2s;
+ }
+
+ input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover {
+     box-shadow: 3px 3px 2px #5FC3E4;
+     cursor: pointer;
+     transition: 1.2s;
+ }
+
+ .box1 img {
+     
+     padding: 12px;
+     width: 50%;
+
+     border-radius: 50%;
+
+ }
+ @media (max-width: 370px) {
+     .container_1 {
+         width: 49%;
+     }
+     .list a {
+         margin-left: 7px;
+     }
+     
+ }
+
+
+ .container_1 , .container_2{
+     margin-left: -18%;
+     border-radius: 10px;
+     font-weight: bold;
+     margin-bottom: 43px;
+     box-shadow:-3px 5px 5px rosybrown;
+     background-color: rgba(12, 117, 117, 0.4);
+     padding: 12px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: aliceblue;
+     width: 55%;
+
+ }
+
+ .container_1:hover, .container_2:hover {
+     box-shadow: 5px -4px 12px;
+     transition: 1.2s;
+ }
+
+ .container_1 h3, .container_2 h3 {
+     color: grey;
+     padding-bottom: 12px;
+     text-decoration: underline;
+     font-size: 2em;
+ }
+ .txt {
+     margin-top: 12px;
+ }
+
+ .move {
+border: 1px solid black;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .container_body {
+     padding-bottom: 22px;
+ }</style>
+</head>
+<body>
+    <div class="box box2">
+        <div class="signup">
+            <h1>Contact Contractor</h1>
+            <div class="form">
+                <form action="">
+              <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username"name="uname" required><br>
+                   <label for="email">Email: </label><br>
+                   <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+                   <label for="psw"><b>Password</b></label>
+        <input type="password" name="psw" required><br>
+                   <label for="tele">Tel: </label><br>
+                   <input type="tel" name="tele" id="tele" placeholder="Enter your phone number" required><br>
+                   <label for="subject">Information:</label>
+                   <div class="col-75">
+                       <textarea name="subject" id="subject"  placeholder="Tell me what you want me to do for you" style="height: 200px;"></textarea>
+                   </div>
+                   <input type="submit" value="Submit">
+                  
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>DETAILS</h2>
+        <P>Details of contractor your about to contact</P>
+        <p>Name: ........................</p>
+        <p>Tel: +01 237 689 3554</p>
+        <p>Experience: 5 years</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quaerat esse illum iste vel iure perferendis doloremque tempora quidem exercitationem neque non omnis expedita, odit porro optio eaque quae architecto, cumque saepe rem. Odio quas velit voluptatem ducimus repellat numquam odit tempore perspiciatis ipsum hic.</p>
+
+    </div>
+</body>
+</html>

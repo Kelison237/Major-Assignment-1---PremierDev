@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.icon img {
+    width: 100px;
+    height: auto;
+float: left;
+    padding-left: 10px;
+}
+
+
+
+.list a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 3pc;
+    border-radius: 4px;
+    margin-left: 44px;
+}
+.list a:hover {
+    background-color: white;
+    font-size: 15px;
+    transition: 1.2s;
+}
+
+.list {
+    text-align: right;
+   padding-top: 30px;
+   float: right;
+    
+}
+
+header{
+    padding-right: 5px;
+    height: 100px;
+    background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-attachment: fixed;
+}
+
+.rowimages{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/42/93/360_F_439429394_69TpqJBIVcKaiqdtF2pgsoyHZ683kULh.webp);
+ 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media  (max-width: 700px){
+        
+    .rowimages .card {
+        width: 50%;
+        
+    }
+    .side {
+        display: none;
+    }
+
+   .list a {
+       padding: 4px;
+       transition: 1.2s;
+   }
+     
+    
+    
+    
+}
+.card img {
+    border-radius:3%;
+   
+    height: auto;
+    
+}
+@keyframes keke {
+ 0% {
+     transform: rotate(2deg);
+ }
+ 50% {
+     transform: rotate(-2deg);
+ }
+ 100% {
+     transform: rotate(2deg);
+ }
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(155, 155, 253, 0.7);
+    transition: 0.3s;
+    width: 20%;
+    background-color: wheat;
+    margin-left: 7%;
+    border-radius: 10px;
+    animation: keke 10.25s infinite;
+
+}
+
+@keyframes kelison {
+    from {
+        transform: none;
+    }
+}
+.card:hover {
+    animation: kelison 10s infinite;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.paragraph {
+    text-align: center;
+    padding: 20px;
+   background-size: cover;
+    background-attachment: fixed;
+ 
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/42/93/360_F_439429394_69TpqJBIVcKaiqdtF2pgsoyHZ683kULh.webp);
+    }
+.container {
+    padding: 2px 16px;
+}
+.card h4, p {
+    text-align: center;
+    padding: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+.text {
+    
+  
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rowimages{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 520px) {
+
+    .text {
+transition: 2s;
+        color:  white;
+    }
+    .side {
+        display: none;
+        
+    }
+    footer {
+        height: 100vh;
+    }
+    .side2 {
+        float: left;
+    }
+.rowimages {
+    display: block;
+    position: relative;
+    
+}
+.card {
+    position: relative;
+    left: 20%;
+    transition: 2s;
+    margin-bottom: 34px;
+}
+    
+}
+
+.side {
+    width: 300px;
+    float: left;
+   
+    margin-right: 7%;
+}
+.side h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.side blockquote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 14px;
+    margin-left: 34px;
+}
+.side p {
+    color: grey;
+    text-align: right;
+   
+}
+
+.side2 h3 {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 13px;
+}
+.side2 {
+    margin-left: 1px;
+    
+}
+
+.side2 li {
+    margin-bottom: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.contact {
+    padding-left: 3px ;
+     float: right;
+     
+}
+.contact h3 {
+    padding-bottom: 20px;
+    color: black;
+}
+.keke {
+    
+    line-height: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact  {
+ line-height: 2px;
+ color: white;
+}
+
+.yellow {
+    color: black;
+}
+@media (max-width: 450px) {
+    .side {
+       display: none;
+    }
+    .list a {
+        margin-left: 12px;
+    }
+    footer {
+        height: 100vh;
+    }
+    
+}
+
+.footer {
+    background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-attachment: fixed;
+display: flexbox;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+
+}
